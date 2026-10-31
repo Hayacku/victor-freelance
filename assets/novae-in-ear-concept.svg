@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Novae In-Ear 2K concept mockup</title>
+  <desc id="desc">A custom vector product mockup of two reflective silver in-ear headphones and their charging case.</desc>
+  <defs>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="matrix(594 497 -498 595 393 421)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8F3FF" stop-opacity=".9"/><stop offset=".28" stop-color="#80CFE8" stop-opacity=".25"/><stop offset="1" stop-color="#08090B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="250" x2="690" y1="180" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/><stop offset=".08" stop-color="#5E6469"/><stop offset=".18" stop-color="#F5FCFF"/><stop offset=".27" stop-color="#565D64"/><stop offset=".42" stop-color="#E6F8FF"/><stop offset=".58" stop-color="#6C7379"/><stop offset=".71" stop-color="#fff"/><stop offset=".85" stop-color="#40464B"/><stop offset="1" stop-color="#EAF8FF"/>
+    </linearGradient>
+    <linearGradient id="metal2" x1="288" x2="770" y1="812" y2="1069" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/><stop offset=".12" stop-color="#626A70"/><stop offset=".24" stop-color="#D7E5EA"/><stop offset=".39" stop-color="#4B5055"/><stop offset=".55" stop-color="#F7FFFF"/><stop offset=".67" stop-color="#747C82"/><stop offset=".8" stop-color="#E4F5FA"/><stop offset="1" stop-color="#50565B"/>
+    </linearGradient>
+    <linearGradient id="blackGlass" x1="432" x2="570" y1="308" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#F4FFFF"/><stop offset=".18" stop-color="#22282C"/><stop offset=".5" stop-color="#0A0C0F"/><stop offset=".72" stop-color="#A6BBC3"/><stop offset="1" stop-color="#111519"/></linearGradient>
+    <filter id="shadow" x="66" y="111" width="877" height="1023" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="21"/></filter>
+    <filter id="soft" x="0" y="0" width="1000" height="1200" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="32"/></filter>
+    <clipPath id="caseClip"><path d="M197 867c0-42 34-76 76-76h456c42 0 76 34 76 76v82c0 94-76 170-170 170H367c-94 0-170-76-170-170v-82Z"/></clipPath>
+  </defs>
+  <rect width="1000" height="1200" fill="#090B0D"/>
+  <rect width="1000" height="1200" fill="url(#ambient)"/>
+  <ellipse cx="507" cy="1010" fill="#000" opacity=".75" rx="374" ry="65" filter="url(#soft)"/>
+  <g opacity=".3" filter="url(#shadow)"><path fill="#000" d="M346 366c-51-33-69-97-37-148l29-47c16-25 50-30 72-11l111 95c28 24 35 65 17 97l-56 100c-20 36-60 51-98 39l-46-15-18 135c-6 46-44 80-90 80-28 0-50-23-47-51l15-155c6-60 63-106 148-119Z"/><path fill="#000" d="M623 359c47-34 63-96 31-146l-27-43c-17-27-53-32-76-11l-105 93c-28 25-35 66-17 99l53 96c20 36 62 51 99 38l43-15 17 136c6 45 45 79 91 79 28 0 49-23 46-51l-14-154c-6-62-62-108-141-121Z"/></g>
+  <g transform="translate(0 -8)">
+    <g transform="rotate(-10 365 433)">
+      <path d="M346 366c-51-33-69-97-37-148l29-47c16-25 50-30 72-11l111 95c28 24 35 65 17 97l-56 100c-20 36-60 51-98 39l-46-15-18 135c-6 46-44 80-90 80-28 0-50-23-47-51l15-155c6-60 63-106 148-119Z" fill="url(#metal)" stroke="#F8FFFF" stroke-opacity=".88" stroke-width="5"/>
+      <path d="M346 366c58 2 105 31 144 86" stroke="#FFF" stroke-opacity=".8" stroke-width="10" stroke-linecap="round"/>
+      <path d="M254 637c18 7 47 5 68-6" stroke="#273137" stroke-opacity=".8" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="438" cy="350" fill="url(#blackGlass)" rx="45" ry="61" transform="rotate(-22 438 350)"/>
+      <ellipse cx="442" cy="331" fill="#FFF" opacity=".78" rx="13" ry="5" transform="rotate(-27 442 331)"/>
+      <path d="M326 215c26 18 57 45 78 71" stroke="#FFF" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="rotate(11 636 430)">
+      <path d="M623 359c47-34 63-96 31-146l-27-43c-17-27-53-32-76-11l-105 93c-28 25-35 66-17 99l53 96c20 36 62 51 99 38l43-15 17 136c6 45 45 79 91 79 28 0 49-23 46-51l-14-154c-6-62-62-108-141-121Z" fill="url(#metal)" stroke="#F8FFFF" stroke-opacity=".88" stroke-width="5"/>
+      <path d="M624 360c-55 2-105 31-143 85" stroke="#FFF" stroke-opacity=".8" stroke-width="10" stroke-linecap="round"/>
+      <path d="M721 636c-20 7-48 5-68-6" stroke="#273137" stroke-opacity=".8" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="529" cy="347" fill="url(#blackGlass)" rx="45" ry="61" transform="rotate(22 529 347)"/>
+      <ellipse cx="524" cy="328" fill="#FFF" opacity=".78" rx="13" ry="5" transform="rotate(27 524 328)"/>
+      <path d="M648 212c-25 18-57 45-78 71" stroke="#FFF" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g clip-path="url(#caseClip)">
+      <path fill="url(#metal2)" d="M197 791h608v328H197z"/>
+      <path fill="#fff" fill-opacity=".32" d="M197 791h608v60H197z"/>
+      <path stroke="#FFF" stroke-opacity=".85" stroke-width="6" d="M199 868h606"/>
+      <path stroke="#111" stroke-opacity=".55" stroke-width="3" d="M202 878h600"/>
+      <ellipse cx="501" cy="888" fill="#0D1114" opacity=".7" rx="24" ry="8"/>
+      <ellipse cx="501" cy="886" fill="#DFFBFF" rx="15" ry="4"/>
+      <path d="M246 815c122 25 368 25 507 0" stroke="#FFF" stroke-opacity=".7" stroke-width="4"/>
+    </g>
+    <path d="M197 867c0-42 34-76 76-76h456c42 0 76 34 76 76v82c0 94-76 170-170 170H367c-94 0-170-76-170-170v-82Z" stroke="#F7FFFF" stroke-opacity=".8" stroke-width="5"/>
+    <path d="M328 1034c48 29 268 38 342-2" stroke="#FFF" stroke-opacity=".24" stroke-width="3"/>
+  </g>
+  <circle cx="500" cy="181" r="1.5" fill="#C8F3FF" opacity=".9"/><circle cx="160" cy="440" r="1" fill="#C8F3FF" opacity=".7"/><circle cx="844" cy="557" r="1" fill="#C8F3FF" opacity=".8"/>
+</svg>
